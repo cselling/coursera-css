@@ -21,7 +21,7 @@ section{
     color:  white;
 }
 
-div {
+.title {
     float: right;
     color:  white;
     text-align: center;
@@ -29,7 +29,7 @@ div {
     border: solid black;
     padding:  3px;
     border-width: 0px 0px 5px 5px ;
-    font-size:  1.25em
+    font-size:  1.25em;
 }
 
 #s1 > div{
@@ -46,11 +46,14 @@ div {
 
 p{
     clear: both;
+    padding: 5px;
 }
 
 .column{
     float:  left;
+    padding:  5px
 }
+
 
 @media (min-width: 992px){
     
@@ -64,7 +67,7 @@ p{
     .column{
         width:  50%;
     }
-    #s3{
+    #c3{
         width:  100%
     }
 }
