@@ -1,0 +1,43 @@
+nav.navbar{
+    background: grey;
+    color: white;/* needs to be more specific to work*/
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    margin-left:  32px;
+}
+
+div#collapseMenu{
+    background-color:  #888888;
+}
+
+.navbar .container{
+    margin-left: 0px;
+}
+
+div section{
+    padding: 0 50px 0;
+    background: grey;
+    color: white;
+}
+
+button{
+    margin-right: 20px;
+}
+
+li{
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 2px 2px 2px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+h3{
+    font-size:  1.5em;
+    margin-top: 15px;
+}
